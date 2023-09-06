@@ -62,45 +62,34 @@ nav{
     margin: 0 0 50px 5%;
 }
 
-/* FAN NAV*/
+/* FAN NAV */
 
 
-/* INICIO MAIN*/
-.courseCards{
+/* INICIO MAIN */
+
+.formContainer{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    /* padding: 0px 130px 0px 130px; */
-    margin: 0px 0px 0px 0px;
+    padding: 0px 130px 0px 130px;
+    height: 500px;
 }
 
-.courseCard{
-    display: flex;
-    margin:0px 130px 50px 130px;
+.formContainer div{
+    width: 50%;
+    padding: 10px;
 }
-.courseCard.card2{
-    display: flex;
-    margin:0px 130px 50px 130px;
-    flex-direction: row-reverse;
-}
-.courseInfo{
+
+.formContainer form{
+    width: 50%;
+    padding: 10px;
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 0 50px 0 20px;
-}
-.courseInfo h1{
-    font-size: 500%;
-}
-.courseInfo h2{
-    font-size: 200%;
-}
-.courseInfo p{
-    font-size: 120%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Times, serif;
+
 }
 
-.courseInfo button{
+.formContainer form button{
     color: white;
     font-weight: 800;
     border-radius: 100px;
@@ -109,14 +98,29 @@ nav{
 
     height: 50px;
     width: 20%;
-    margin:0 0 0 80%;
+    margin: 0 0 0 80%;
 }
 
-.courseCard img{
-    width: 50%;
-    height: 350px;
-    margin: 0 10px 0 0;
+.text{
+    background-color: #DAC0A3;
+    border: 0px;
+    border-radius: 2px;
+    height: 60px;
+    font-size: 100%;
+    
 }
 
+.msgBox{
+    height: 200px;
+    background-color: #DAC0A3;
+    border: 0px;
+    border-radius: 2px;
+    font-size: 150%;
+}
 
-/* FIN MAIN*/
+.text::placeholder, .msgBox::placeholder{
+    color: black;
+    font-weight: 600;
+    padding: 5px 0 0 15px;
+}
+/* FIN MAIN */
